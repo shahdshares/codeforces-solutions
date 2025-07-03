@@ -43,8 +43,8 @@ int main() {
 
 // flipping the turn
 /*
-    turn = 1 - turn
-    turn = not turn
-    turn = turn ^ 1
-    turn = 0 if turn else 0
+    turn = 1 - turn;
+    turn = ! turn;
+    turn = turn ^ 1;
+    or make an if condition
 */  
