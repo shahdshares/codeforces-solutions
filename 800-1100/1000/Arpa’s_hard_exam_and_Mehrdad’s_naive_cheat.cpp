@@ -1,24 +1,26 @@
+// https://codeforces.com/contest/742/problem/A
+
 #include <iostream>
 #include <vector>
-#include <set>
-#include <map>
-#include <string>
 #include <cmath>
 #include <algorithm>
 
 using namespace std;
 
-void solve() {
-    long long n = pow(1378 , 4);
-    cout << n << '\n';
-}
-
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    int t = 1;
-    // cin >> t;
-    while (t --) {
-        solve();    
-    }
+	long long n;
+	cin >> n;
+	if (n == 0) {
+		cout << "1\n";
+		return;
+	}
+	vector <int> v = {8, 4, 2, 6};
+	int x = v.size();
+	int result = n % x;
+	if (result == 0) {
+		cout << v[x - 1] << '\n';
+	}
+	else {
+		cout << v[result - 1] << '\n';
+	}
 }
