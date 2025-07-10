@@ -1,4 +1,4 @@
-// https://codeforces.com/problemset/problem/1840/C
+// // https://codeforces.com/problemset/problem/1840/C
 
 #include <iostream>
 #include <cmath> 
@@ -44,6 +44,31 @@ void solve() {
         subarr += (cnt - k + 1) * (cnt - k + 2) / 2;
     cout << subarr << '\n';
 }
+
+// void solve() {
+//     int n, k, q;
+//     cin >> n >> k >> q;
+//     vector <int> a(n + 1);
+//     a[n] = INT_MAX; 
+//     for (int i = 0; i < n; ++i) {
+//         cin >> a[i];
+//     }
+//     long long result = 0, c = 0;
+//     for (int i = 0; i <= n; i++) {
+//         if (a[i] <= q) {
+//             c ++;
+//         }
+//         else {
+//             if (c >= k) {
+//                 for (int j = k; j <= c; j++) {
+//                     result += (c - j + 1);
+//                 }
+//             }
+//             c = 0;
+//         }
+//     }
+//     cout << result << '\n';
+// }
 
 int main() {
     ios::sync_with_stdio(false);
