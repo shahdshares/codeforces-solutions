@@ -43,16 +43,3 @@ int main() {
         solve();
     }
 }
-
-/*
-for _ in range(int(input())):
-    l=[]
-    for i in range(10):
-        l.append(input())
-    s=0    
-    for i in range(10):
-        for j in range(10):
-            if l[i][j]=="X":
-                s+=min(i+1,j+1,10-i,10-j)
-    print(s)            
-*/
