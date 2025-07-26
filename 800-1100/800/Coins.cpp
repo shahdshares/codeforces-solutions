@@ -51,6 +51,8 @@ void solve() {
     // else {
     //     cout << (((n - k) % 2 == 0) ? "YES\n" : "NO\n");
     // }
+    // ACC
+    
     for (int i = 0; i < 2; i++) {
         if ((n - i * k) >= 0 && (n - i * k) % 2 == 0) {
             cout << "YES\n";
