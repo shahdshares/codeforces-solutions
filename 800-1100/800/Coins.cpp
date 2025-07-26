@@ -38,6 +38,8 @@ void solve() {
     //         cout << "NO\n";
     //     }
     // }
+    // ACC
+    
     // if (!(n & 1) || k % 2 == 1) {
     //     cout << "YES\n";
     //     return;
