@@ -9,26 +9,6 @@
 
 using namespace std;
 
-// void solve() {
-//     int n;
-//     cin >> n;
-//     map <int , int> mp;
-//     for (int i = 0; i < n; i++) {
-//         int x, y;
-//         cin >> x >> y;
-//         mp[x] = y;
-//     }
-//     int prev = -1;
-//     for (auto it = mp.begin(); it != mp.end(); it++) {
-//         if (it->second < prev) {
-//             cout << "Happy Alex\n";
-//             return;   
-//         }
-//         prev = it->second;
-//     }
-//     cout << "Poor Alex\n";
-// }
-
 void solve() {
     int n;
     cin >> n;
