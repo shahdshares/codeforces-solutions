@@ -24,12 +24,6 @@ void solve() {
     while (m --) {
         int pstn;
         cin >> pstn;
-        // set <int> st;
-        // for (int i = pstn; i <= n; i++) {
-        //     st.insert(v[i]);
-        // }
-        // cout << st.size() << '\n';
-
         // Answer in O(1) time
         cout << v[pstn] << '\n';
     }
