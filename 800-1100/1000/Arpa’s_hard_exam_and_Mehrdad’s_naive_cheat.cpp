@@ -24,3 +24,4 @@ int main() {
 		cout << v[result - 1] << '\n';
 	}
 }
+
